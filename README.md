@@ -140,7 +140,7 @@ window.show();
 
 > [!TIP]
 > Available alignments are START, END, CENTER and FILL.
-> START, END and CENTER squeezes children to a small area, while FILL makes them all the area.
+> START, END and CENTER squeezes children to a small area, while FILL makes them fill all the area.
 
 ### Some Notes
 1. Every item that appears on the screen is called a widget.
