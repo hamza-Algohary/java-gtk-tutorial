@@ -52,7 +52,7 @@ app.run(args.length, new Strs(args));
 ```
 > [!IMPORTANT]
 > You have to treat the onActivate() handler as your main() method for the GUI.
-> Given that I'm going to omit Application creationg from the following code and you have to put it inside onActivate() handler.
+> Given that, I'm going to omit Application creationg from the following code and you have to put it inside onActivate() handler.
 
 
 ### Adding a label
@@ -138,7 +138,7 @@ window.setChild(box);
 window.show();
 ```
 
-> [!INFO]
+> [!TIP]
 > Available alignments are START, END, CENTER and FILL.
 > START, END and CENTER squeezes children to a small area, while FILL makes them all the area.
 
@@ -362,6 +362,7 @@ Glib.timeoutAdd(1000, (handler,user_data)->{
 # Tips
 
 - Use setSizeRequest() on any widget to force a minimum size for it.
+- Use setDefaultSize() to set window initial dimensions.
 
 # Styling
 Gtk widgets can be styled using CSS.
