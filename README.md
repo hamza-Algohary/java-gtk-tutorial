@@ -7,16 +7,14 @@ Learning GUI programming with Java and Gtk.
 - Lambdas.
 # Installation Guide For Windows
 1. Download [this program](https://github.com/msys2/msys2-installer/releases/download/2023-10-26/msys2-x86_64-20231026.exe) and install it. (It's called MSYS2)
-2. Open MSYS2 and paste the following command:
+2. Open MSYS2 and paste the following commands:
 ```
-pacman -S mingw-w64-x86_64-gtk4 mingw-w64-x86_64-libadwaita
+pacman -S mingw-w64-x86_64-gtk4
 ```
-3. Add `C:\msys64\mingw64\bin` to PATH
-    1. Search for environment variables in start menu and open it.
-    2. Click on Environment Variables button.
-    3. Click on PATH and click edit. 
-    4. Click on new.
-    5. Add this string `C:\msys64\mingw64\bin`
+```
+pacman -S mingw-w64-x86_64-libadwaita
+```
+3. [Add `C:\msys64\mingw64\bin` to PATH](change-path-in-windows.md)
 
 4. Clone this repository.
 
