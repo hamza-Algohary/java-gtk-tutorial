@@ -785,7 +785,7 @@ public class Examples {
 
             CssProvider provider = new CssProvider();
             StyleContext.addProviderForDisplay(window.getDisplay(), provider.asStyleProvider(), 10000);
-            provider.loadFromPath("src/main/resources/themes/canta-dark/gtk.css");
+            provider.loadFromPath("src/main/resources/themes/canta-light/gtk.css");
 
             CssProvider myprovider = new CssProvider();
             StyleContext.addProviderForDisplay(window.getDisplay(), myprovider.asStyleProvider(), 11000);
